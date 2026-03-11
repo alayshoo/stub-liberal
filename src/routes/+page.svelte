@@ -1,5 +1,7 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
+  import { base } from '$app/paths';
+
   import panzoom from "panzoom";
 
   let showPopup = true;
@@ -125,7 +127,7 @@
           </span>
         </div>
         <div class="image-space">
-          <img src="/IL.png" alt="Iniciativa Liberal logo" />
+          <img src="{base}/IL.png" alt="Iniciativa Liberal logo" />
         </div>
       </div>
     </div>
@@ -135,7 +137,7 @@
 {#if !showPopup}
   <header class="site-header">
     <a href="/" class="header-logo">
-      <img src="/IL.png" alt="Iniciativa Liberal" />
+      <img src="{base}/IL.png" alt="Iniciativa Liberal" />
     </a>
     <a
       href="https://liberal.pt/adere"
@@ -156,7 +158,7 @@
   <div class="map-wrapper">
     <img
       bind:this={imgElement}
-      src="/mapa.svg"
+      src="{base}/mapa.svg"
       alt="Mapa de Bragança com linhas STUB"
       class="map-image"
       draggable="false"
