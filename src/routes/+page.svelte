@@ -125,7 +125,7 @@
 {/if}
 
 <header class="site-header">
-    <a href="/" class="header-logo">
+    <a href="{base}/" class="header-logo">
         <img src="{base}/IL.png" alt="Iniciativa Liberal" />
     </a>
     <a
