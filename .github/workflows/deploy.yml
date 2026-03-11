@@ -2,13 +2,13 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [master] 
+    branches: [master]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: writex
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
