@@ -104,7 +104,7 @@
 </script>
 
 <svelte:head>
-  <title>STUB Liberal</title>
+  <title>Mapa STUB Liberal</title>
 </svelte:head>
 
 {#if showPopup}
