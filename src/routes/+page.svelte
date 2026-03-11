@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
   import { base } from '$app/paths';
-
+  
   import panzoom from "panzoom";
 
   let showPopup = true;
