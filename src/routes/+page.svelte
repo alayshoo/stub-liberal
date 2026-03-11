@@ -103,6 +103,10 @@
   }
 </script>
 
+<svelte:head>
+  <title>STUB Liberal</title>
+</svelte:head>
+
 {#if showPopup}
   <div class="popup-overlay">
     <div class="popup">
